@@ -1,14 +1,13 @@
 {
   "name": "react-hook-scroll",
-  "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "version": "0.1.5",
+  "main": "dist/VirtualScroll.js",
+  "module": "dist/VirtualScroll.js",
   "private": false,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,6 +15,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publish:npm": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "eslintConfig": {
     "extends": [

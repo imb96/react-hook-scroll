@@ -1,3 +1,4 @@
+import React from "react";
 import { useVirtualScroll } from "./VirtualScroll.hook";
 import "./VirtualScroll.styles.css";
 
