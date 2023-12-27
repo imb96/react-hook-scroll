@@ -1,5 +1,7 @@
 # React-Hook-Scroll
 
+[![npm version](https://img.shields.io/npm/v/react-hook-scroll.svg?style=flat)](https://www.npmjs.com/package/react-hook-scroll)
+
 React-Hook-Scroll is a UI library available for react projects.
 
 You can give the user a choice and let them choose a value through scrolling.
