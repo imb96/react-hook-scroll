@@ -1,6 +1,16 @@
 {
   "name": "react-hook-scroll",
   "version": "0.1.5",
+  "description": "user a choice and let them choose a value through scrolling.",
+  "keywords": [
+    "scroll"
+  ],
+  "author": {
+    "name": "Minjae Kim",
+    "email": "kimminje7810@gmail.com",
+    "url": "https://github.com/imb96"
+  },
+  "license": "MIT",
   "main": "dist/VirtualScroll.js",
   "module": "dist/VirtualScroll.js",
   "private": false,
