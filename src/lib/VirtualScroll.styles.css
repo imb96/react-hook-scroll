@@ -1,0 +1,35 @@
+.Container {
+  width: 100px;
+  height: 13rem;
+  overflow: auto;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  font-weight: 300;
+  color: #374151;
+  transition: background-color 0.3s;
+}
+
+.CenterItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  font-weight: 300;
+  background-color: rgba(200, 200, 200, 0.3);
+}
