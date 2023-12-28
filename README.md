@@ -1,8 +1,7 @@
-# React-Hook-Scroll
+# React-Hook-Scroll &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imb96/react-hook-scroll/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react-hook-scroll.svg?style=flat)](https://www.npmjs.com/package/react-hook-scroll)
 
-[![npm version](https://img.shields.io/npm/v/react-hook-scroll.svg?style=flat)](https://www.npmjs.com/package/react-hook-scroll)
-
-React-Hook-Scroll is a UI library for React projects that allows users to choose a value through scrolling. It is designed to be compatible with both desktop and mobile environments.
+React-Hook-Scroll is a UI library for React projects that allows users to choose a value through scrolling.<br/>
+It is designed to be compatible with both desktop and mobile environments.
 
 ### Install
 
@@ -27,7 +26,7 @@ function App() {
 }
 ```
 
-![스크린샷 2023-12-27 오후 6 32 46](https://github.com/imb96/git-recipe/assets/71740032/4084c2a9-6d57-4631-a478-3b3cfc43d436)
+![react-hook-scroll](https://github.com/imb96/react-hook-scroll/assets/71740032/8da48170-0516-4f49-bff8-f23d5fbf8d70)
 
 The VirtualScroll component requires two required profiles.
 
