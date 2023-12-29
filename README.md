@@ -1,4 +1,4 @@
-# React-Hook-Scroll &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imb96/react-hook-scroll/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react-hook-scroll.svg?style=flat)](https://www.npmjs.com/package/react-hook-scroll)
+# React-Hook-Scroll &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imb96/react-hook-scroll/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react-hook-scroll.svg?style=flat)](https://www.npmjs.com/package/react-hook-scroll) ![npm downloads](https://img.shields.io/npm/dt/react-hook-scroll)
 
 React-Hook-Scroll is a UI library for React projects that allows users to choose a value through scrolling.<br/>
 It is designed to be compatible with both desktop and mobile environments.
