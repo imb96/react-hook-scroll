@@ -2,7 +2,9 @@
   "name": "react-hook-scroll",
   "version": "0.1.6",
   "description": "user a choice and let them choose a value through scrolling.",
+  "repository": "imb96/react-hook-scroll",
   "keywords": [
+    "react",
     "scroll"
   ],
   "author": {
