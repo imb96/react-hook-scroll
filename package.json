@@ -1,7 +1,7 @@
 {
   "name": "react-hook-scroll",
-  "version": "0.1.11",
-  "description": "user a choice and let them choose a value through scrolling.",
+  "version": "0.1.12",
+  "description": "scroll UI library that can be used in React projects.",
   "repository": "imb96/react-hook-scroll",
   "keywords": [
     "react",
