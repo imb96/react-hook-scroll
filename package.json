@@ -1,11 +1,14 @@
 {
   "name": "react-hook-scroll",
-  "version": "0.1.8",
+  "version": "0.1.11",
   "description": "user a choice and let them choose a value through scrolling.",
   "repository": "imb96/react-hook-scroll",
   "keywords": [
     "react",
-    "scroll"
+    "scroll",
+    "top",
+    "button",
+    "ui"
   ],
   "author": {
     "name": "Minjae Kim",
@@ -13,8 +16,8 @@
     "url": "https://github.com/imb96"
   },
   "license": "MIT",
-  "main": "dist/VirtualScroll.js",
-  "module": "dist/VirtualScroll.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "private": false,
   "dependencies": {
     "react": "^18.2.0",
