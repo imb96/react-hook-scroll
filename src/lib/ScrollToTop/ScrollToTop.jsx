@@ -1,7 +1,7 @@
 import { useScrollToTop } from "./ScrollToTop.hook";
 import "./ScrollToTop.styles.css";
 
-export const ScrollToTop = ({ children }) => {
+export const ScrollToTop = ({ children, style }) => {
   const { isVisible, onClick } = useScrollToTop();
 
   return (
@@ -9,6 +9,7 @@ export const ScrollToTop = ({ children }) => {
       className={`ScrollToTop ${isVisible ? "visible" : ""}`}
       isVisible={isVisible}
       onClick={onClick}
+      style={style}
     >
       {children}
     </div>
