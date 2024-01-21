@@ -1,3 +1,4 @@
+import React from "react";
 import { useScrollToTop } from "./ScrollToTop.hook";
 import "./ScrollToTop.styles.css";
 
