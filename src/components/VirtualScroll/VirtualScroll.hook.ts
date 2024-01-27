@@ -1,8 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-export const useVirtualScroll = ({ list, onItemSelected }) => {
+interface useVirtualScrollProps {
+  list: string[];
+  onItemSelected: (item: string) => void;
+}
+
+export const useVirtualScroll = ({
+  list,
+  onItemSelected,
+}: useVirtualScrollProps) => {
   const scrollList = useMemo(() => [null, null, ...list, null, null], [list]);
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [centerIndex, setCenterIndex] = useState(0);
 
   useEffect(() => {
@@ -18,7 +26,7 @@ export const useVirtualScroll = ({ list, onItemSelected }) => {
         );
         setCenterIndex(centerItemIndex);
 
-        onItemSelected(scrollList[centerItemIndex]);
+        onItemSelected(scrollList[centerItemIndex] as string);
       };
       scrollContainer.addEventListener("scroll", updateCenterItemWithRef);
 
@@ -28,6 +36,7 @@ export const useVirtualScroll = ({ list, onItemSelected }) => {
         scrollContainer.removeEventListener("scroll", updateCenterItemWithRef);
       };
     }
+    return () => {};
   }, [scrollList, onItemSelected]);
 
   return {
