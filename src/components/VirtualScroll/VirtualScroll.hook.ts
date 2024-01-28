@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 interface useVirtualScrollProps {
   list: string[];
-  onItemSelected: (item: string) => void;
+  onItemSelected?: (item: string) => void;
 }
 
 export const useVirtualScroll = ({
@@ -25,8 +25,9 @@ export const useVirtualScroll = ({
           (scrollTop + centerScroll) / itemHeight
         );
         setCenterIndex(centerItemIndex);
-
-        onItemSelected(scrollList[centerItemIndex] as string);
+        if (onItemSelected) {
+          onItemSelected(scrollList[centerItemIndex] as string);
+        }
       };
       scrollContainer.addEventListener("scroll", updateCenterItemWithRef);
 

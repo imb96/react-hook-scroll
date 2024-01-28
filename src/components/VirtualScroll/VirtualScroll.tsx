@@ -4,11 +4,11 @@ import "./VirtualScroll.styles.css";
 
 export default interface VirtualScrollProps {
   list: string[];
-  onItemSelected: (item: string) => void;
-  containerItemStyle: React.CSSProperties;
-  listStyle: React.CSSProperties;
-  centerItemStyle: React.CSSProperties;
-  itemStyle: React.CSSProperties;
+  onItemSelected?: (item: string) => void;
+  containerItemStyle?: React.CSSProperties;
+  listStyle?: React.CSSProperties;
+  centerItemStyle?: React.CSSProperties;
+  itemStyle?: React.CSSProperties;
 }
 
 export const VirtualScroll = ({

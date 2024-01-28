@@ -3,8 +3,8 @@ import { useScrollToTop } from "./ScrollToTop.hook";
 import "./ScrollToTop.styles.css";
 
 export interface ScrollToTopProps {
-  children: React.ReactNode;
-  style: React.CSSProperties;
+  children?: React.ReactNode;
+  style?: React.CSSProperties;
 }
 
 export const ScrollToTop = ({ children, style }: ScrollToTopProps) => {
