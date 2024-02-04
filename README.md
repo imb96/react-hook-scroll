@@ -6,7 +6,13 @@ It is designed to be compatible with both desktop and mobile environments.
 ### Install
 
 ```shell
-npm i react-hook-scroll
+npm install react-hook-scroll
+```
+
+OR
+
+```shell
+yarn add react-hook-scroll
 ```
 
 ### Example
